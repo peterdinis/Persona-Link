@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/shared/theme-provider";
 
 const geistSans = Ubuntu({
   weight: "500"
@@ -21,7 +22,14 @@ export default function RootLayout({
       <body
         className={`${geistSans} antialiased`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
