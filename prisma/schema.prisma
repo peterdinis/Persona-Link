@@ -60,6 +60,7 @@ model Account {
   updatedAt             DateTime
 
   @@map("account")
+  @@unique([accountId, providerId])
 }
 
 model Verification {

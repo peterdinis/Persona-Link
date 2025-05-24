@@ -72,8 +72,5 @@ export const loginUser = actionClient
             throw new Error('Invalid credentials');
         }
 
-        // Sign the user in
-        await authClient.signIn(account.userId)
-
         return { userId: account.user.id };
     });
