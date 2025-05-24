@@ -1,8 +1,8 @@
-import DashboardWrapper from "@/components/dashboard/DashboardWrapper";
-import { NextPage } from "next";
+import DashboardWrapper from '@/components/dashboard/DashboardWrapper';
+import { NextPage } from 'next';
 
 const DashobardPage: NextPage = () => {
-    return <DashboardWrapper />
-}
+    return <DashboardWrapper />;
+};
 
 export default DashobardPage;
