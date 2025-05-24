@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Ubuntu } from 'next/font/google';
 import './globals.css';
 import { ThemeProvider } from '@/components/shared/theme-provider';
+import { ScrollToTopButton } from '@/components/shared/ScrollTopButton';
 
 const geistSans = Ubuntu({
     weight: '500',
@@ -27,6 +28,7 @@ export default function RootLayout({
                     disableTransitionOnChange
                 >
                     {children}
+                    <ScrollToTopButton />
                 </ThemeProvider>
             </body>
         </html>
