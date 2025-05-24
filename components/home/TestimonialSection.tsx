@@ -10,7 +10,7 @@ const testimonials = [
     name: 'Alex Morgan',
     role: 'Content Creator',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150',
-    content: 'LinkFolio transformed my online presence. I\'ve seen a 40% increase in followers since I started using it for my content links.',
+    content: 'Persona Link transformed my online presence. I\'ve seen a 40% increase in followers since I started using it for my content links.',
     rating: 5
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Jennifer Liu',
     role: 'Digital Marketer',
     avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150',
-    content: 'As a marketer, I need tools that provide analytics and optimization. LinkFolio delivers exactly that, plus an amazingly clean design.',
+    content: 'As a marketer, I need tools that provide analytics and optimization. Persona Link delivers exactly that, plus an amazingly clean design.',
     rating: 5
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     name: 'Marcus Johnson',
     role: 'Musician',
     avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=150',
-    content: 'I use LinkFolio to promote my music releases and tour dates. The custom themes perfectly match my brand aesthetic.',
+    content: 'I use Persona Link to promote my music releases and tour dates. The custom themes perfectly match my brand aesthetic.',
     rating: 4
   }
 ];
@@ -46,7 +46,7 @@ export const TestimonialsSection: React.FC = () => {
             Trusted by Thousands
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
-            Join the community of creators, influencers, and businesses who\'ve transformed their online presence with LinkFolio.
+            Join the community of creators, influencers, and businesses who\'ve transformed their online presence with Persona Link.
           </p>
         </motion.div>
         

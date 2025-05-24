@@ -35,10 +35,10 @@ export const DemoSection: React.FC = () => {
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            See LinkFolio in Action
+            See Persona Link in Action
           </h2>
           <p className="text-gray-600 text-lg">
-            Customize your page with different themes and styles. Here's what your LinkFolio could look like:
+            Customize your page with different themes and styles. Here's what your Persona Link could look like:
           </p>
         </div>
         

@@ -15,7 +15,7 @@ const features: PlanFeature[] = [
   { title: 'Unlimited Links', free: true, pro: true, business: true },
   { title: 'Basic Analytics', free: true, pro: true, business: true },
   { title: 'Custom Domain', free: false, pro: true, business: true },
-  { title: 'Remove LinkFolio Branding', free: false, pro: true, business: true },
+  { title: 'Remove Persona Link Branding', free: false, pro: true, business: true },
   { title: 'Advanced Analytics', free: false, pro: true, business: true },
   { title: 'Schedule Links', free: false, pro: true, business: true },
   { title: 'Form & Email Collection', free: false, pro: false, business: true },

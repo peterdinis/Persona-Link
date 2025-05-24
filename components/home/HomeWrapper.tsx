@@ -5,6 +5,8 @@ import { FeaturesSection } from "./FeaturesSection";
 import { DemoSection } from "./DemoSection";
 import { TestimonialsSection } from "./TestimonialSection";
 import { PricingSection } from "./PricingSection";
+import { CTASection } from "./CTASection";
+import { Footer } from "../shared/Footer";
 
 const HomeWrapper: FC = () => {
     return (
@@ -15,6 +17,8 @@ const HomeWrapper: FC = () => {
             <DemoSection />
             <TestimonialsSection />
             <PricingSection />
+            <CTASection />
+            <Footer />
         </div>
     )
 }
