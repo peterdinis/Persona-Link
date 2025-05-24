@@ -5,6 +5,95 @@ settings:
   excludeLinksFromLockfile: false
 
 importers:
+<<<<<<< HEAD
+    .:
+        dependencies:
+            '@radix-ui/react-avatar':
+                specifier: ^1.1.10
+                version: 1.1.10(@types/react-dom@19.1.5(@types/react@19.1.5))(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            '@radix-ui/react-dialog':
+                specifier: ^1.1.14
+                version: 1.1.14(@types/react-dom@19.1.5(@types/react@19.1.5))(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            '@radix-ui/react-dropdown-menu':
+                specifier: ^2.1.15
+                version: 2.1.15(@types/react-dom@19.1.5(@types/react@19.1.5))(@types/react@19.1.5)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            '@radix-ui/react-slot':
+                specifier: ^1.2.3
+                version: 1.2.3(@types/react@19.1.5)(react@19.1.0)
+            axios:
+                specifier: ^1.9.0
+                version: 1.9.0
+            class-variance-authority:
+                specifier: ^0.7.1
+                version: 0.7.1
+            clsx:
+                specifier: ^2.1.1
+                version: 2.1.1
+            framer-motion:
+                specifier: ^12.12.2
+                version: 12.12.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            lucide-react:
+                specifier: ^0.511.0
+                version: 0.511.0(react@19.1.0)
+            next:
+                specifier: 15.1.8
+                version: 15.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            next-safe-action:
+                specifier: ^7.10.8
+                version: 7.10.8(next@15.1.8(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(zod@3.25.24)
+            next-themes:
+                specifier: ^0.4.6
+                version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+            react:
+                specifier: ^19.0.0
+                version: 19.1.0
+            react-dom:
+                specifier: ^19.0.0
+                version: 19.1.0(react@19.1.0)
+            tailwind-merge:
+                specifier: ^3.3.0
+                version: 3.3.0
+            tailwindcss-animate:
+                specifier: ^1.0.7
+                version: 1.0.7(tailwindcss@3.4.17)
+            zod:
+                specifier: ^3.25.24
+                version: 3.25.24
+        devDependencies:
+            '@eslint/eslintrc':
+                specifier: ^3
+                version: 3.3.1
+            '@types/node':
+                specifier: ^20
+                version: 20.17.50
+            '@types/react':
+                specifier: ^19
+                version: 19.1.5
+            '@types/react-dom':
+                specifier: ^19
+                version: 19.1.5(@types/react@19.1.5)
+            eslint:
+                specifier: ^9
+                version: 9.27.0(jiti@1.21.7)
+            eslint-config-next:
+                specifier: 15.1.8
+                version: 15.1.8(eslint@9.27.0(jiti@1.21.7))(typescript@5.8.3)
+            postcss:
+                specifier: ^8
+                version: 8.5.3
+            prettier:
+                specifier: ^3.5.3
+                version: 3.5.3
+            prettier-plugin-tailwindcss:
+                specifier: ^0.6.11
+                version: 0.6.11(prettier@3.5.3)
+            tailwindcss:
+                specifier: ^3.4.1
+                version: 3.4.17
+            typescript:
+                specifier: ^5
+                version: 5.8.3
+=======
 
   .:
     dependencies:
@@ -108,6 +197,7 @@ importers:
       typescript:
         specifier: ^5
         version: 5.8.3
+>>>>>>> main
 
 packages:
 
