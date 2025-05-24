@@ -13,7 +13,7 @@ const features = [
   },
   {
     title: 'Mobile Optimized',
-    description: 'Your LinkFolio page works flawlessly on any device, from phones to desktops.',
+    description: 'Your Persona Link page works flawlessly on any device, from phones to desktops.',
     icon: Smartphone,
     color: 'bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400'
   },
@@ -58,7 +58,7 @@ export const FeaturesSection: React.FC = () => {
             All the Features You Need
           </h2>
           <p className="text-gray-600 dark:text-gray-300 text-lg">
-            LinkFolio comes packed with everything you need to create the perfect link page and grow your online presence.
+            Persona Link comes packed with everything you need to create the perfect link page and grow your online presence.
           </p>
         </motion.div>
         
