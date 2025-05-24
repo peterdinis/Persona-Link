@@ -1,0 +1,45 @@
+"use server";
+
+import { z } from "zod";
+import bcrypt from "bcryptjs";
+import { actionClient } from "@/lib/safe-action";
+import { db } from "@/lib/database";
+
+const RegisterSchema = z.object({
+    email: z.string().email(),
+    password: z.string().min(6),
+    name: z.string().optional(),
+});
+
+
+export const registerUser = actionClient.schema(RegisterSchema)
+    .action(async ({ parsedInput: { email, password, name } }) => {
+        const existing = await db.user.findUnique({ where: { email } });
+        if (existing) throw new Error("Email already in use");
+
+        const hashedPassword = await bcrypt.hash(password, 10);
+
+        const user = await db.user.create({
+            data: {
+                email,
+                name,
+                emailVerified: false,
+                createdAt: new Date(),
+                updatedAt: new Date(),
+            },
+        });
+
+        await db.account.create({
+            data: {
+                id: crypto.randomUUID(),
+                accountId: email,
+                providerId: "credentials",
+                userId: user.id,
+                password: hashedPassword,
+                createdAt: new Date(),
+                updatedAt: new Date(),
+            },
+        });
+
+        return { userId: user.id };
+    })
