@@ -11,6 +11,8 @@ import { initialLinks, initialPersonas } from '@/mockData/mockData';
 import { Appearance } from './Apperance';
 import { PersonaList } from './PersonalList';
 import { DashboardSidebar } from './Sidebar';
+import Header from '../shared/Header';
+import { DashboardHeader } from './DashboardHeader';
 
 export type Link = {
   id: string;
@@ -108,6 +110,7 @@ const DashboardWrapper: FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+       <DashboardHeader />
       <div className="flex">
         <DashboardSidebar
           activeView={activeView}
