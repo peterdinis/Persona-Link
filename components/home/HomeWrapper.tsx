@@ -2,6 +2,9 @@ import { FC } from "react";
 import Header from "../shared/Header";
 import HeroSection from "./HeroSection";
 import { FeaturesSection } from "./FeaturesSection";
+import { DemoSection } from "./DemoSection";
+import { TestimonialsSection } from "./TestimonialSection";
+import { PricingSection } from "./PricingSection";
 
 const HomeWrapper: FC = () => {
     return (
@@ -9,6 +12,9 @@ const HomeWrapper: FC = () => {
             <Header />
             <HeroSection />
             <FeaturesSection />
+            <DemoSection />
+            <TestimonialsSection />
+            <PricingSection />
         </div>
     )
 }
